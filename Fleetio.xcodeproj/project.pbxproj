@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D2250E6127A505AA00862F38 /* FuelEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2250E6027A505AA00862F38 /* FuelEntry.swift */; };
+		D2250E6527A5069500862F38 /* FuelEntriesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2250E6427A5069500862F38 /* FuelEntriesListView.swift */; };
+		D2250E6727A506D900862F38 /* FuelEntriesMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2250E6627A506D900862F38 /* FuelEntriesMapView.swift */; };
+		D2250E6927A50B2300862F38 /* FuelEntryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2250E6827A50B2300862F38 /* FuelEntryViewModel.swift */; };
+		D2250E6C27A50BC300862F38 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2250E6B27A50BC300862F38 /* NetworkService.swift */; };
+		D2250E6E27A50BE000862F38 /* FuelEntryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2250E6D27A50BE000862F38 /* FuelEntryService.swift */; };
+		D2250E7027A51D9B00862F38 /* WrappedProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2250E6F27A51D9B00862F38 /* WrappedProperties.swift */; };
+		D2250E7327A5226300862F38 /* HeaderRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2250E7227A5226300862F38 /* HeaderRow.swift */; };
+		D2250E7527A522DB00862F38 /* Text+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2250E7427A522DB00862F38 /* Text+Extension.swift */; };
+		D2250E7727A5238900862F38 /* FuelEntryRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2250E7627A5238900862F38 /* FuelEntryRowView.swift */; };
+		D2250E7A27A523F700862F38 /* FuelEntryDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2250E7927A523F700862F38 /* FuelEntryDetailView.swift */; };
+		D2250E7C27A526DC00862F38 /* Double+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2250E7B27A526DC00862F38 /* Double+Extension.swift */; };
+		D2250E7E27A52E3300862F38 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2250E7D27A52E3300862F38 /* String+Extension.swift */; };
+		D265CF7327A3CC550062ACFC /* FleetioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D265CF7227A3CC550062ACFC /* FleetioApp.swift */; };
+		D265CF7527A3CC550062ACFC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D265CF7427A3CC550062ACFC /* ContentView.swift */; };
+		D265CF7727A3CC570062ACFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D265CF7627A3CC570062ACFC /* Assets.xcassets */; };
+		D265CF7A27A3CC570062ACFC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D265CF7927A3CC570062ACFC /* Preview Assets.xcassets */; };
+		D2BB70E827ABD14600888D5C /* ReadMe.md in Resources */ = {isa = PBXBuildFile; fileRef = D2BB70E727ABD14600888D5C /* ReadMe.md */; };
+		D2FA4A3E27A7B369003E5B38 /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FA4A3D27A7B369003E5B38 /* Place.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D2250E6027A505AA00862F38 /* FuelEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuelEntry.swift; sourceTree = "<group>"; };
+		D2250E6427A5069500862F38 /* FuelEntriesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuelEntriesListView.swift; sourceTree = "<group>"; };
+		D2250E6627A506D900862F38 /* FuelEntriesMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuelEntriesMapView.swift; sourceTree = "<group>"; };
+		D2250E6827A50B2300862F38 /* FuelEntryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuelEntryViewModel.swift; sourceTree = "<group>"; };
+		D2250E6B27A50BC300862F38 /* NetworkService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		D2250E6D27A50BE000862F38 /* FuelEntryService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuelEntryService.swift; sourceTree = "<group>"; };
+		D2250E6F27A51D9B00862F38 /* WrappedProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WrappedProperties.swift; sourceTree = "<group>"; };
+		D2250E7227A5226300862F38 /* HeaderRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderRow.swift; sourceTree = "<group>"; };
+		D2250E7427A522DB00862F38 /* Text+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Text+Extension.swift"; sourceTree = "<group>"; };
+		D2250E7627A5238900862F38 /* FuelEntryRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuelEntryRowView.swift; sourceTree = "<group>"; };
+		D2250E7927A523F700862F38 /* FuelEntryDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuelEntryDetailView.swift; sourceTree = "<group>"; };
+		D2250E7B27A526DC00862F38 /* Double+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Extension.swift"; sourceTree = "<group>"; };
+		D2250E7D27A52E3300862F38 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		D265CF6F27A3CC550062ACFC /* Fleetio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fleetio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D265CF7227A3CC550062ACFC /* FleetioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FleetioApp.swift; sourceTree = "<group>"; };
+		D265CF7427A3CC550062ACFC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D265CF7627A3CC570062ACFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D265CF7927A3CC570062ACFC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D2BB70E727ABD14600888D5C /* ReadMe.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = ReadMe.md; sourceTree = SOURCE_ROOT; };
+		D2FA4A3D27A7B369003E5B38 /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D265CF6C27A3CC550062ACFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D2250E5F27A5059000862F38 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D2250E6027A505AA00862F38 /* FuelEntry.swift */,
+				D2250E6F27A51D9B00862F38 /* WrappedProperties.swift */,
+				D2FA4A3D27A7B369003E5B38 /* Place.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D2250E6227A505EF00862F38 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D2250E7427A522DB00862F38 /* Text+Extension.swift */,
+				D2250E7D27A52E3300862F38 /* String+Extension.swift */,
+				D2250E7B27A526DC00862F38 /* Double+Extension.swift */,
+				D2250E7127A5223A00862F38 /* List View */,
+				D2250E6627A506D900862F38 /* FuelEntriesMapView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D2250E6327A5060700862F38 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D2250E6827A50B2300862F38 /* FuelEntryViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D2250E6A27A50B6400862F38 /* Network Layer */ = {
+			isa = PBXGroup;
+			children = (
+				D2250E6B27A50BC300862F38 /* NetworkService.swift */,
+				D2250E6D27A50BE000862F38 /* FuelEntryService.swift */,
+			);
+			path = "Network Layer";
+			sourceTree = "<group>";
+		};
+		D2250E7127A5223A00862F38 /* List View */ = {
+			isa = PBXGroup;
+			children = (
+				D2250E6427A5069500862F38 /* FuelEntriesListView.swift */,
+				D2250E7227A5226300862F38 /* HeaderRow.swift */,
+				D2250E7627A5238900862F38 /* FuelEntryRowView.swift */,
+				D2250E7827A523DE00862F38 /* Detail View */,
+			);
+			path = "List View";
+			sourceTree = "<group>";
+		};
+		D2250E7827A523DE00862F38 /* Detail View */ = {
+			isa = PBXGroup;
+			children = (
+				D2250E7927A523F700862F38 /* FuelEntryDetailView.swift */,
+			);
+			path = "Detail View";
+			sourceTree = "<group>";
+		};
+		D265CF6627A3CC550062ACFC = {
+			isa = PBXGroup;
+			children = (
+				D2BB70E727ABD14600888D5C /* ReadMe.md */,
+				D265CF7127A3CC550062ACFC /* Fleetio */,
+				D265CF7027A3CC550062ACFC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D265CF7027A3CC550062ACFC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D265CF6F27A3CC550062ACFC /* Fleetio.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D265CF7127A3CC550062ACFC /* Fleetio */ = {
+			isa = PBXGroup;
+			children = (
+				D265CF7227A3CC550062ACFC /* FleetioApp.swift */,
+				D265CF7427A3CC550062ACFC /* ContentView.swift */,
+				D2250E5F27A5059000862F38 /* Model */,
+				D2250E6227A505EF00862F38 /* View */,
+				D2250E6327A5060700862F38 /* ViewModel */,
+				D2250E6A27A50B6400862F38 /* Network Layer */,
+				D265CF7627A3CC570062ACFC /* Assets.xcassets */,
+				D265CF7827A3CC570062ACFC /* Preview Content */,
+			);
+			path = Fleetio;
+			sourceTree = "<group>";
+		};
+		D265CF7827A3CC570062ACFC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D265CF7927A3CC570062ACFC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D265CF6E27A3CC550062ACFC /* Fleetio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D265CF7D27A3CC570062ACFC /* Build configuration list for PBXNativeTarget "Fleetio" */;
+			buildPhases = (
+				D265CF6B27A3CC550062ACFC /* Sources */,
+				D265CF6C27A3CC550062ACFC /* Frameworks */,
+				D265CF6D27A3CC550062ACFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fleetio;
+			productName = Fleetio;
+			productReference = D265CF6F27A3CC550062ACFC /* Fleetio.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D265CF6727A3CC550062ACFC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					D265CF6E27A3CC550062ACFC = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = D265CF6A27A3CC550062ACFC /* Build configuration list for PBXProject "Fleetio" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D265CF6627A3CC550062ACFC;
+			productRefGroup = D265CF7027A3CC550062ACFC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D265CF6E27A3CC550062ACFC /* Fleetio */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D265CF6D27A3CC550062ACFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D265CF7A27A3CC570062ACFC /* Preview Assets.xcassets in Resources */,
+				D265CF7727A3CC570062ACFC /* Assets.xcassets in Resources */,
+				D2BB70E827ABD14600888D5C /* ReadMe.md in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D265CF6B27A3CC550062ACFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2250E6E27A50BE000862F38 /* FuelEntryService.swift in Sources */,
+				D2250E7327A5226300862F38 /* HeaderRow.swift in Sources */,
+				D265CF7527A3CC550062ACFC /* ContentView.swift in Sources */,
+				D2250E6927A50B2300862F38 /* FuelEntryViewModel.swift in Sources */,
+				D2250E6527A5069500862F38 /* FuelEntriesListView.swift in Sources */,
+				D2250E6727A506D900862F38 /* FuelEntriesMapView.swift in Sources */,
+				D2250E7727A5238900862F38 /* FuelEntryRowView.swift in Sources */,
+				D2250E6127A505AA00862F38 /* FuelEntry.swift in Sources */,
+				D2250E7C27A526DC00862F38 /* Double+Extension.swift in Sources */,
+				D2250E7A27A523F700862F38 /* FuelEntryDetailView.swift in Sources */,
+				D2250E7527A522DB00862F38 /* Text+Extension.swift in Sources */,
+				D2FA4A3E27A7B369003E5B38 /* Place.swift in Sources */,
+				D265CF7327A3CC550062ACFC /* FleetioApp.swift in Sources */,
+				D2250E7027A51D9B00862F38 /* WrappedProperties.swift in Sources */,
+				D2250E7E27A52E3300862F38 /* String+Extension.swift in Sources */,
+				D2250E6C27A50BC300862F38 /* NetworkService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D265CF7B27A3CC570062ACFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D265CF7C27A3CC570062ACFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D265CF7E27A3CC570062ACFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Fleetio/Preview Content\"";
+				DEVELOPMENT_TEAM = 28K4GG93U4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.riggur.Fleetio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D265CF7F27A3CC570062ACFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Fleetio/Preview Content\"";
+				DEVELOPMENT_TEAM = 28K4GG93U4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.riggur.Fleetio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D265CF6A27A3CC550062ACFC /* Build configuration list for PBXProject "Fleetio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D265CF7B27A3CC570062ACFC /* Debug */,
+				D265CF7C27A3CC570062ACFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D265CF7D27A3CC570062ACFC /* Build configuration list for PBXNativeTarget "Fleetio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D265CF7E27A3CC570062ACFC /* Debug */,
+				D265CF7F27A3CC570062ACFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D265CF6727A3CC550062ACFC /* Project object */;
+}
