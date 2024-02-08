@@ -6,5 +6,6 @@
 4. Environment obj used for sharing data between tabs
 5. Paging used for showing page by page data
 6. Geolocation filter used for fetching data via api
+7. @propertyWrapper
 
 
